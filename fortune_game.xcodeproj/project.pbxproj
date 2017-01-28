@@ -15,6 +15,9 @@
 		16017BD61E3C4924009E323E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16017BD41E3C4924009E323E /* LaunchScreen.storyboard */; };
 		16017BE11E3C4924009E323E /* fortune_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16017BE01E3C4924009E323E /* fortune_gameTests.swift */; };
 		16017BEC1E3C4925009E323E /* fortune_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16017BEB1E3C4925009E323E /* fortune_gameUITests.swift */; };
+		1692068A1E3CC5E700EF5F7B /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169206891E3CC5E700EF5F7B /* SelectViewController.swift */; };
+		1692068C1E3CC5FF00EF5F7B /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1692068B1E3CC5FF00EF5F7B /* EntryViewController.swift */; };
+		1692068E1E3CC93700EF5F7B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1692068D1E3CC93700EF5F7B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		16017BE71E3C4924009E323E /* fortune_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortune_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16017BEB1E3C4925009E323E /* fortune_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortune_gameUITests.swift; sourceTree = "<group>"; };
 		16017BED1E3C4925009E323E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169206891E3CC5E700EF5F7B /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		1692068B1E3CC5FF00EF5F7B /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		1692068D1E3CC93700EF5F7B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				16017BC81E3C4924009E323E /* AppDelegate.swift */,
 				16017BCA1E3C4924009E323E /* ViewController.swift */,
 				16017BCC1E3C4924009E323E /* Main.storyboard */,
+				1692068D1E3CC93700EF5F7B /* ResultViewController.swift */,
+				1692068B1E3CC5FF00EF5F7B /* EntryViewController.swift */,
+				169206891E3CC5E700EF5F7B /* SelectViewController.swift */,
 				16017BD21E3C4924009E323E /* Assets.xcassets */,
 				16017BD41E3C4924009E323E /* LaunchScreen.storyboard */,
 				16017BD71E3C4924009E323E /* Info.plist */,
@@ -265,9 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1692068A1E3CC5E700EF5F7B /* SelectViewController.swift in Sources */,
+				1692068C1E3CC5FF00EF5F7B /* EntryViewController.swift in Sources */,
 				16017BCB1E3C4924009E323E /* ViewController.swift in Sources */,
 				16017BC91E3C4924009E323E /* AppDelegate.swift in Sources */,
 				16017BD11E3C4924009E323E /* fortune_game.xcdatamodeld in Sources */,
+				1692068E1E3CC93700EF5F7B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +530,7 @@
 				16017BF21E3C4925009E323E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16017BF31E3C4925009E323E /* Build configuration list for PBXNativeTarget "fortune_gameTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				16017BF51E3C4925009E323E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16017BF61E3C4925009E323E /* Build configuration list for PBXNativeTarget "fortune_gameUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				16017BF81E3C4925009E323E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

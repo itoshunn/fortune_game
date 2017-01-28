@@ -1,6 +1,9 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "801192f1211953c2e8848d45e33da8a7"
-build_time: [538889768, 327907000]
+build_time: [538922808, 939622000]
 inputs:
-  "/Users/MacShun/Programming/Xcode/myApp/fortune_game/fortune_game/ViewController.swift": [538889764, 0]
+  "/Users/MacShun/Programming/Xcode/myApp/fortune_game/fortune_game/SelectViewController.swift": [538921702, 0]
+  "/Users/MacShun/Programming/Xcode/myApp/fortune_game/fortune_game/EntryViewController.swift": [538921727, 0]
+  "/Users/MacShun/Programming/Xcode/myApp/fortune_game/fortune_game/ViewController.swift": [538922808, 0]
   "/Users/MacShun/Programming/Xcode/myApp/fortune_game/fortune_game/AppDelegate.swift": [538889764, 0]
+  "/Users/MacShun/Programming/Xcode/myApp/fortune_game/fortune_game/ResultViewController.swift": [538922551, 0]
